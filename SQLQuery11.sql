@@ -1,0 +1,1 @@
+﻿Select prID,prName,prPrice, CategoryID, c.catName from products p inner join category c on c.catID = p.CategoryID
